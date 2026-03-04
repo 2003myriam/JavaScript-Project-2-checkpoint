@@ -37,3 +37,20 @@ return somme
 let array2=[4,5,7,2,18,1]
 let somme=0 
 console.log("la somme du contenue de array est",sum())
+
+/* _________Problem 3__________ */
+/* _______filter array________ */
+function filterarray() {
+  for (let i = 0; i < array3.length; i++) {
+      if (array3[i]>number) {
+        array4[i]=array3[i]
+      } 
+  }
+  return array4 
+}
+let array4=[]
+let array3=[4,5,7,2,18,1]
+let number=5
+console.log("la valeur des chiffre sup a 5 dans cet array",filterarray())
+
+
